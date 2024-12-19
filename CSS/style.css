@@ -1,0 +1,113 @@
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(244, 94, 172);
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#formes{
+    margin-top: 60px;
+}
+.corpo{
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}  
+#ir{
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
+} 
+#ir:hover{
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
+    background-color:rgb(244, 94, 172);
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+}
+
+/*segunda pagina*/
+
+.carta{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    font-size: 30px;
+    text-align: center;
+}
+.corpo2{
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+}
+.texto{
+    overflow: hidden;  
+    text-align: center;
+    width: 1000px;
+    animation:animaTexto 4s steps(40) 1s normal;;
+}
+#tituloo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes animaTexto{
+    0%{
+        width: 0;
+    }
+}
+#presente{
+    width: 200px;
+    height: 30px;
+}
+#presente:hover{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(244, 94, 172);
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+}
+
+
+/* style pagina 3*/
+
+.corpo3{
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dica{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(244, 94, 172);
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+#d{
+    margin-top: 20%;
+}
